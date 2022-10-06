@@ -1,5 +1,8 @@
 package by.itacademy.jd2.Mk_92_22_Product.service.api;
 
+import by.itacademy.jd2.Mk_92_22_Product.core.ProductDTO;
+import by.itacademy.jd2.Mk_92_22_Product.entity.ProductBuilder;
+
 import java.util.List;
 
 public interface IEssenceService<TYPE> {
@@ -8,6 +11,6 @@ public interface IEssenceService<TYPE> {
 
     TYPE getId(int id);
 
-    void validate(TYPE item);
+    void validate(ProductDTO item);
 
 }

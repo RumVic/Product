@@ -3,7 +3,7 @@ package by.itacademy.jd2.Mk_92_22_Product.entity;
 public class ProductBuilder {
     int id;
     String name;
-    int price;
+    double price;
     double sale;
     String about;
 
@@ -24,10 +24,9 @@ public class ProductBuilder {
     public ProductBuilder setName(String name) {
         this.name = name;
         return this;
-
     }
 
-    public ProductBuilder setPrice(int price) {
+    public ProductBuilder setPrice(double price) {
         this.price = price;
         return this;
     }
@@ -43,6 +42,6 @@ public class ProductBuilder {
     }
 
     public Product build() {
-        return new Product(id, name, price, sale, about);
+        return new Product( id,name, price, sale, about);
     }
 }

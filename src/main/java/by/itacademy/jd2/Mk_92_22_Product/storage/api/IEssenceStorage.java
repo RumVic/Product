@@ -10,7 +10,7 @@ public interface IEssenceStorage<TYPE> {
 
     TYPE getId (int id);
 
-    //void save();
+    void add (TYPE item);
 
 
 

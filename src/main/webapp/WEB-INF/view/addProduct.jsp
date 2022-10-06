@@ -10,7 +10,7 @@
         <h2>Adding new product</h2>
         <table border=1 cellpadding = 3 cellspacing = 0>
             <tr>
-              <th>Id</th>
+              <th>Try guess Id </th>
               <th>Name</th>
               <th>Price</th>
               <th>Sale</th>

@@ -56,14 +56,8 @@ public class ProductStorage implements IProductStorage {
         return INSTANCE;
     }
 
-    public void add(int id,String name,int price,int sale,String about){
-        this.data.add(ProductBuilder.create()
-                        .setId(id)
-                        .setName(name)
-                        .setPrice(price)
-                        .setSale(sale)
-                        .setAbout(about)
-                .build());
+    public void add(Product item){
+        this.data.add(item);
     }
 
 }
