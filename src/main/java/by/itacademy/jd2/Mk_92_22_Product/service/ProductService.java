@@ -25,8 +25,9 @@ public class ProductService implements IProductService {
         return this.STORAGE.get();
     }
 
+
     @Override
-    public Product getId(int id) {
+    public Product getId(Long id) {
         return this.STORAGE.getId(id);
     }
 
@@ -45,7 +46,7 @@ public class ProductService implements IProductService {
             throw new IllegalArgumentException("You didn't pass any description fucking idiot");
         }
         STORAGE.add(ProductBuilder.create()
-                .setId(STORAGE.get().size()+1)
+                .setId(1l)
                 .setName(item.getName())
                 .setPrice(item.getPrice())
                 .setSale(item.getSale())

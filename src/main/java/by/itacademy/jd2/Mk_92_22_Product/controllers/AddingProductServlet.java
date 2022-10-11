@@ -1,7 +1,6 @@
 package by.itacademy.jd2.Mk_92_22_Product.controllers;
 
 import by.itacademy.jd2.Mk_92_22_Product.core.ProductDTO;
-import by.itacademy.jd2.Mk_92_22_Product.entity.ProductBuilder;
 import by.itacademy.jd2.Mk_92_22_Product.service.ProductService;
 import by.itacademy.jd2.Mk_92_22_Product.service.api.IProductService;
 

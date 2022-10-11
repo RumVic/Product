@@ -1,7 +1,7 @@
 package by.itacademy.jd2.Mk_92_22_Product.entity;
 
 public class ProductBuilder {
-    int id;
+    Long id;
     String name;
     double price;
     double sale;
@@ -16,7 +16,7 @@ public class ProductBuilder {
         return new ProductBuilder();
     }
 
-    public ProductBuilder setId(int id) {
+    public ProductBuilder setId(Long id) {
         this.id = id;
         return this;
     }

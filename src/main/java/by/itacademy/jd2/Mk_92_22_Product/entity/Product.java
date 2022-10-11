@@ -3,18 +3,22 @@ package by.itacademy.jd2.Mk_92_22_Product.entity;
 import java.util.Objects;
 
 public class Product {
-  private int id;
+  private Long id;
   private String name;
   private double price;
   private double sale;
   private String about;
 
+    public Product() {
+    }
 
-
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
     public String getName() {
         return name;
     }
@@ -31,7 +35,8 @@ public class Product {
         return about;
     }
 
-    public Product(int id, String name, double price, double sale, String about) {
+
+    public Product(Long id, String name, double price, double sale, String about) {
         this.id = id;
         this.name = name;
         this.price = price;
